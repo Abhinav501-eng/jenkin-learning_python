@@ -1,6 +1,6 @@
 pipeline{
     agent any
-    steges{
+    stages{
         stage('scm checkout'){
             steps{
               git branch: 'master', url: 'https://github.com/Abhinav501-eng/jenkin-learning_python.git'            }
