@@ -3,7 +3,7 @@ pipeline{
     steges{
         stage('scm checkout'){
             steps{
-                git branch: 'masterr', url: 'https://github.com/Abhinav501-eng/jenkin-learning_python.git'
+                git branch: 'master', url: 'https://github.com/Abhinav501-eng/jenkin-learning_python.git'
             }
         }
     }
